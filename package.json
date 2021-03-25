@@ -1,0 +1,22 @@
+{
+  "name": "test-project",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Khadavr/Khadavr.github.io.git"
+  },
+  "keywords": [
+    "lala"
+  ],
+  "author": "aboba",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
