@@ -1,1 +1,1 @@
-﻿Hello, cube!
+﻿No code No pain
