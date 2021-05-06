@@ -1,29 +1,37 @@
 {
   "name": "test-project",
-  "type": "module",
   "version": "1.0.0",
+  "type": "module",
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "parcel ./src/index.html -p 3000 --open",
+    "build": "parcel build ./src/index.html"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Khadavr/Khadavr.github.io.git"
+    "url": "git+https://github.com/Khadavr/Khadavr.github.io.git"
   },
   "keywords": [
-    "lala"
+    "js",
+    "javascript"
   ],
   "author": "aboba",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "m": "^1.6.0"
   },
   "devDependencies": {
     "eslint": "^7.25.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-vue": "^7.9.0",
+    "parcel-bundler": "^1.12.5",
     "prettier": "^2.2.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Khadavr/Khadavr.github.io/issues"
+  },
+  "homepage": "https://github.com/Khadavr/Khadavr.github.io#readme"
 }

@@ -20,3 +20,10 @@
     box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
     overflow-y: auto;
 }
+
+.row img {
+    border-radius: 15px 50px 30px;
+    width: 80%;
+    height: 600px;
+    margin-bottom: 200px;
+}
