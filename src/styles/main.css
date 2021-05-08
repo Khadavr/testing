@@ -21,9 +21,3 @@
     overflow-y: auto;
 }
 
-.row img {
-    border-radius: 15px 50px 30px;
-    width: 80%;
-    height: 600px;
-    margin-bottom: 200px;
-}
